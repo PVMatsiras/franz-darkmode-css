@@ -10,3 +10,4 @@ meetfranz.com
   * Linux: `~/.config/Franz/recipes/`
 3. Copy that service's `darkmode.css` file into the corresponding plugins directory
 4. Reload Franz
+5. Go settings for that specific enabled service and enable darkmode for it.
