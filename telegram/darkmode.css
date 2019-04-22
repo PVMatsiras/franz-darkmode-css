@@ -5,64 +5,86 @@ https://github.com/jonrick/franz-darkmode-css/
 By: Jon Rick
 **/
 .tg_head_split {
-    background: #22303f;
+    background: #22303f !important;
 }
 
 html {
-    background: #18222d;
+    background: #18222d !important;
     }
 .im_dialogs_search_field {
-    font-size: 12px;
-    border: 1px solid #18222d;
-    background-color: #22303f;
+    font-size: 12px !important;
+    border: 1px solid #18222d !important;
+    background-color: #22303f !important;
 }
 .im_history_empty, .im_history_not_selected {
-    color: #fff;
+    color: #fff !important;
 }
 
 body {
-    color: #fff;
-    font: 11px/18px 'Open Sans',"Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Verdana,sans-serif;
+    color: #fff !important;
+    font: 11px/18px 'Open Sans',"Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Verdana,sans-serif !important;
     font-weight: normal !important;
 }
 a.im_dialog .im_dialog_chat_from_wrap, a.im_dialog .im_short_message_media, a.im_dialog .im_short_message_service {
-    color: #fff;
+    color: #fff !important;
     font-weight: normal !important;
 }
 a.im_dialog .im_short_message_text {
-    color: #6a8191;
+    color: #ccc !important;
     font-weight: normal !important;
 }
 .im_page_wrap {
-    background: #18222d;
-    border-left: 0px solid #dfe5ec;
-    border-right: 0px solid #dfe5ec;
-    border-bottom: 0px solid #d2dbee;
-    box-shadow: 0px 0px 0 #dfe5ec;
+    background: #18222d !important;
+    border-left: 0px solid #dfe5ec !important;
+    border-right: 0px solid #dfe5ec !important;
+    border-bottom: 0px solid #d2dbee !important;
+    box-shadow: 0px 0px 0 #dfe5ec !important;
 }
 
 .im_dialogs_scrollable_wrap .active a.im_dialog {
-	background-color: #3f6b95;
+    background-color: #3f6b95 !important;
 }
 
 .im_dialogs_col .nano > .nano-pane {
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0) !important;
 }
 .im_dialogs_col_wrap {
-    border-right: 2px solid #22303f;
+    border-right: 2px solid #22303f !important;
 }
 .im_dialog_peer {
-    color: #fff;
+    color: #fff !important;
     }
 
 .im_dialogs_scrollable_wrap a.im_dialog:hover, .im_dialogs_scrollable_wrap a.im_dialog_selected {
-    background: #0e171f;
+    background: #0e171f !important;
 }
 
 .im_message_selected .im_message_outer_wrap {
-    background: #22303f;
+    background: #22303f !important;
 }
 
 .im_history_select_active .im_message_outer_wrap:hover {
-    background: #0e171f;
+    background: #0e171f !important;
+}
+.im_message_unread_split {
+    background: #0e171f !important;
+    color: #8096a8 !important;
+}
+.dropdown-menu {
+    background-color: #0d171e !important;
+        border: 0px solid #21303f !important;
+}
+
+.md_modal_head {
+    color: #fff !important;
+    background: #22303f !important;
+}
+
+.md_modal_body {
+    color: #fff !important;
+  background: #0d171e !important;
+}
+
+a.tg_checkbox, p.tg_checkbox {
+    color: #eee !important;
 }
